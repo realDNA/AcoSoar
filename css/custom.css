@@ -251,3 +251,8 @@ video {
 video {
     object-fit: contain;
 }
+
+.probootstrap-animate {
+  opacity: 0;
+  visibility: hidden;
+}
