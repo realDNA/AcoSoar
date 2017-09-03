@@ -270,3 +270,13 @@ video {
   visibility: hidden;
 }
 
+.probootstrap-footer {
+  padding: 1em 0;
+  padding-bottom: 0px;
+  background: #000000;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.probootstrap-footer .probootstrap-back-to-top {
+  text-align: right;
+}
