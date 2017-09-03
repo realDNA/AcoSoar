@@ -28,6 +28,7 @@
 	/*----------------------------------------
 		Back to top
 	----------------------------------------*/
+	/*
 	var backToTop = function() {
 		jQuery('.js-backtotop').on('click', function(e){
 			e.preventDefault();
@@ -36,21 +37,23 @@
 	    }, 700, 'easeInOutExpo');
 
 		});
-	}
+	}*/
 
 	/*----------------------------------------
 		More
 	----------------------------------------*/
+	/*
 	var moreControl = function() {
 		jQuery('.js-btn-more').on('click', function(e){
 			e.preventDefault();
 			jQuery('.probootstrap-header-top').toggleClass('active');
 		});
-	};
+	};*/
 
 	/*----------------------------------------
 		Search
 	----------------------------------------*/
+	/*
 	var searchControl = function() {
 		jQuery('.js-probootstrap-search').on('click', function(){
 			jQuery('#probootstrap-search').addClass('active');
@@ -61,11 +64,12 @@
 		jQuery('.js-probootstrap-close').on('click', function(){
 			jQuery('#probootstrap-search').removeClass('active');
 		});
-	};
+	};*/
 
 	/*----------------------------------------
 		Menu Hover
 	----------------------------------------*/
+	/*
 	var menuHover = function() {
 		if (!isMobile.any()) {
 			jQuery('.probootstrap-navbar .navbar-nav li.dropdown').hover(function() {
@@ -75,9 +79,11 @@
 			});
 		}
 	}
+	*/
 	/*----------------------------------------
 		Carousel
 	----------------------------------------*/
+	/*
 	var owlCarousel = function(){
 
 		var owl = jQuery('.owl-carousel-carousel');
@@ -168,11 +174,12 @@
 			}
 		});
 	};
-
+	*/
 	
 	/*----------------------------------------
 		Slider
 	----------------------------------------*/
+	/*
 	var flexSlider = function() {
 	  jQuery('.flexslider').flexslider({
 	    animation: "fade",
@@ -180,7 +187,7 @@
 	    nextText: "",
 	    slideshow: true
 	  });
-	}
+	}*/
 
 	
 	/*----------------------------------------
@@ -226,6 +233,7 @@
 	/*----------------------------------------
 		Counter Animation
 	----------------------------------------*/
+	/*
 	var counter = function() {
 		jQuery('.js-counter').countTo({
 			 formatter: function (value, options) {
@@ -298,18 +306,19 @@
 
       fixedContentPos: false
     });
-	}
+	}*/
 
 	/*----------------------------------------
 		Stellar
 	----------------------------------------*/
+	/*
 	var stellarInit = function() {
 		if( !isMobile.any() ) {
 			jQuery(window).stellar();
 		}
-	};
+	};*/
 
-
+	/*
 	var progressBarControl = function() {
 		if ( jQuery(".progress-bar-s2").length > 0 ) {
       var $progress_bar = jQuery('.progress-bar-s2');
@@ -325,25 +334,26 @@
       });
     };
 	}
+	*/
 
 	/*----------------------------------------
 		Document Ready 
 	----------------------------------------*/
 	jQuery(document).ready(function(){
-		menuHover();
-		counterWayPoint();
+		//menuHover();
+		//counterWayPoint();
 		contentWayPoint();
-		backToTop();
-		searchControl();
-		moreControl();
-		magnificPopupControl();
-		stellarInit();
-		progressBarControl();
+		//backToTop();
+		//searchControl();
+		//moreControl();
+		//magnificPopupControl();
+		//stellarInit();
+		//progressBarControl();
 	});
 
 	jQuery(window).load(function(){
-		owlCarousel();
-		flexSlider();
+		//owlCarousel();
+		//flexSlider();
 	});
 
 	
